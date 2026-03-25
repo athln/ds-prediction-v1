@@ -30,8 +30,8 @@ All eight inputs are shared across all five models.
 
 | # | Parameter | Unit (entered) | Internal Unit | Typical Range |
 |---|---|---|---|---|
-| 1 | Concrete compressive strength | MPa | 20 – 30 MPa |
-| 2 | Steel yield strength | MPa | 400 – 530 MPa |
+| 1 | Concrete compressive strength | MPa | MPa | 20 – 30 |
+| 2 | Steel yield strength | MPa | MPa | 400 – 530 |
 | 3 | Average Mass Loss | % | % | 0 – 30 |
 | 4 | Pitting Mass Loss | % | % | 0 – 50 |
 | 5 | Transverse Mass Loss | % | % | 0 – 70 |
@@ -45,11 +45,11 @@ All eight inputs are shared across all five models.
 
 | Output | Description |
 |---|---|
-| **DS-1** | Damage State 1 |
-| **DS-2** | Damage State 2 |
-| **DS-3** | Damage State 3 |
-| **DS-4** | Damage State 4 |
-| **DS-5** | Damage State 5 |
+| **DS-1** | Reinforcement yielding in columns/beams |
+| **DS-2** | Visible crack formation in joints |
+| **DS-3** | Spalling of cover concrete |
+| **DS-4** | Crack width exceeding 3 mm in joints |
+| **DS-5** | Shear failure in columns |
 
 ---
 
