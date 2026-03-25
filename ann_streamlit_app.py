@@ -680,9 +680,7 @@ def sidebar_controls():
         st.markdown("---")
         st.markdown(
             '<div style="font-size:0.75rem; color:#93c5fd; line-height:1.6;">'
-            '<b>fc</b> &amp; <b>fy</b> input: <b>ksi</b><br>'
-            'Conversion: × 0.145 → MPa<br>'
-            'Outputs: DS-1 … DS-5'
+            'Version 1.0'
             '</div>',
             unsafe_allow_html=True)
 
