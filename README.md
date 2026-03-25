@@ -170,25 +170,23 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 ### Single Prediction Tab
 
 1. Adjust the 8 input sliders / number fields in the left panel.
-2. `fc` and `fy` must be entered in **ksi** — conversion to MPa is automatic.
-3. Click **⚡ Predict All DS**.
-4. Five colour-coded result cards appear on the right (DS-1 through DS-5).
+2. Click **⚡ Predict All DS**.
+3. Five colour-coded result cards appear on the right (DS-1 through DS-5).
 
 ### Batch Prediction Tab
 
 1. Click **Upload input CSV** and select your file.
 2. The CSV must have **8 numeric columns** in the exact order listed above.
 3. The first row may be a header — it is skipped automatically.
-4. `fc` and `fy` columns should be in **ksi**.
-5. After processing, a styled results table appears with all input and output columns.
-6. Click **⬇ Download Full Results CSV** to save the predictions.
+4. After processing, a styled results table appears with all input and output columns.
+5. Click **⬇ Download Full Results CSV** to save the predictions.
 
 **CSV format example:**
 
 ```csv
-fc,fy,Average Mass Loss,Pitting Mass Loss,Transverse Mass Loss,Story Height,Bay Width,Slab Thickness
-4.0,60.0,10.0,5.0,5.0,3.0,5.0,180.0
-3.5,55.0,15.0,8.0,6.0,3.2,4.5,150.0
+Concrete Compressive Strength ,Stel Yield Strength,Average Mass Loss,Pitting Mass Loss,Transverse Mass Loss,Story Height,Bay Width,Slab Thickness
+20.0,420.0,10.0,5.0,5.0,3.0,5.0,0.12
+25.5,455.0,15.0,8.0,6.0,3.2,4.5,0.14
 ```
 
 > A pre-filled template CSV is available for download directly from the app when no file has been uploaded yet.
