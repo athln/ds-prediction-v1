@@ -9,7 +9,7 @@
 This application loads pre-trained ANN models and simultaneously predicts five damage state probabilities from a single set of material, geometrical and deteriorational input parameters. It is designed for structural engineers and researchers working on seismic vulnerability assessment of corrosion-affected RC structures.
 
 **Author:** ANMK  
-**Version:** 1.0
+**Version:** 2.0
 
 ---
 
