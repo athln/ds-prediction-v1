@@ -7,8 +7,7 @@ Features:
   • Single prediction  – 8 inputs → 5 DS outputs shown as metric cards
   • Batch prediction   – upload CSV, download results with all 5 DS columns
   • Model info         – per-model architecture, CV metrics, training config
-  • fc / fy conversion – user enters ksi; values multiplied by 6.89476 before inference
-  • Author box         – "AN"  |  Version 1.0
+  • Author box         – "ANMK"  |  Version 2.0
 
 Run:
     streamlit run ann_streamlit_app.py
@@ -391,7 +390,7 @@ def render_author_box():
       <div class="author-badge">DS</div>
       <div>
         <div class="author-name">ANN-DS</div>
-        <div class="author-version">Version 1.0 | DOI: </div>
+        <div class="author-version">Version 2.0 | DOI: </div>
       </div>
     </div>
     """, unsafe_allow_html=True)
@@ -679,7 +678,7 @@ def sidebar_controls():
         st.markdown("---")
         st.markdown(
             '<div style="font-size:0.75rem; color:#93c5fd; line-height:1.6;">'
-            'Version 1.0'
+            'Version 2.0'
             '</div>',
             unsafe_allow_html=True)
 
