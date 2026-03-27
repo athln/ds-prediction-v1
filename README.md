@@ -74,8 +74,6 @@ Place all five files in the same directory as `ann_streamlit_app.py`, or specify
 ```
 .
 ├── ann_streamlit_app.py    ← Main Streamlit application
-├── ann_train.py            ← Training script (generates model checkpoints)
-├── ann_gui.py              ← Desktop Tkinter GUI (alternative interface)
 ├── ann_model_1.pt          ← DS-1 model checkpoint
 ├── ann_model_2.pt          ← DS-2 model checkpoint
 ├── ann_model_3.pt          ← DS-3 model checkpoint
@@ -92,7 +90,7 @@ Place all five files in the same directory as `ann_streamlit_app.py`, or specify
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ann-predictor.git
+git clone https://github.com/athln/ds-prediction-v2.git
 cd ann-predictor
 ```
 
